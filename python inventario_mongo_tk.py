@@ -684,3 +684,6 @@ if __name__ == "__main__":
     menu_principal()
 
 
+#  hecho con mucho esfuerzo. NO ES IA.  VIVA EL FULLSTACK 
+
+
