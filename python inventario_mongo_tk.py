@@ -1,7 +1,7 @@
 """
 Sistema de Inventario - Proyecto Final
 
-- CRUD de productos()
+- CRUD de productos
 - Registro de ventas (actualiza stock y muestra total)
 - Reportes (stock bajo y valor total del inventario)
 - Base de datos: MongoDB
@@ -683,3 +683,4 @@ def menu_principal():
 # Si se ejecuta este archivo directamente (no importado como módulo), se corre el menú principal.
 if __name__ == "__main__":
     menu_principal()
+
