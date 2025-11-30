@@ -2,15 +2,14 @@
 Sistema de Inventario - Proyecto Final
 
 - CRUD de productos
-- Registro de ventas (actualiza stock y muestra total)
-- Reportes (stock bajo y valor total del inventario)
 - Base de datos: MongoDB
 - Interfaz gráfica: Tkinter
 
-NOTA IMPORTANTE:
-Antes de ejecutar este programa debes:
-1) Instalar pymongo -> pip install pymongo
-2) Tener el servidor de MongoDB corriendo en tu máquina.
+
+Anotaciones:
+-Para visualizar datos acerca de la base de datos se puede instalar MongoDB Compass
+-La base de datos esta lanzada en el puerto por defecto
+- este programa todavia tiene vulnearabilidades asi que seguiremos en control y buscandolas
 """
 
 import tkinter as tk
@@ -683,4 +682,5 @@ def menu_principal():
 # Si se ejecuta este archivo directamente (no importado como módulo), se corre el menú principal.
 if __name__ == "__main__":
     menu_principal()
+
 
