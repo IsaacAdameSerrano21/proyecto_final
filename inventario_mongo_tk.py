@@ -312,6 +312,27 @@ def validar_login(username, password):
     return user
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###-----INTERFAZ ----#####
+
+
+
+
+
+
 # --------------- VARIABLES GLOBALES DE LA INTERFAZ -------------------- #
 
 root = None
@@ -951,3 +972,4 @@ def mostrar_login():
 
 if __name__ == "__main__":
     mostrar_login()
+
